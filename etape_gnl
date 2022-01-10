@@ -1,0 +1,7 @@
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
