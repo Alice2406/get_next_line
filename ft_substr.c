@@ -6,10 +6,10 @@
 /*   By: aniezgod <aniezgod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/02 18:08:46 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/01/02 23:45:00 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/01/24 15:58:43 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+#include "get_next_line.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
