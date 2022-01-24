@@ -6,7 +6,7 @@
 /*   By: aniezgod <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 14:44:15 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/01/24 16:01:34 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/01/24 17:30:53 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "get_next_line.h"
@@ -43,9 +43,10 @@ char *get_next_line(int fd)
 		buffer[i] = '\0';
 		while (point_end_string(buffer, j) != -1)
 		{
+			printf("%d\n%d\n\n", j, point_end_string(buffer,j));
 			chaine = ft_substr(buffer, j, point_end_string(buffer, j));
 			printf("%s\n", chaine);
-			j = point_end_string(buffer, j);
+			j = point_end_string(buffer, j) + 1;
 		}
 	}
 	return(NULL);

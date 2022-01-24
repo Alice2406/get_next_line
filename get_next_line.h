@@ -6,7 +6,7 @@
 /*   By: aniezgod <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 15:50:39 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/01/24 16:04:06 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/01/24 17:23:00 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,6 @@
 
 char *get_next_line(int fd);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
-
+int	ft_strlen(const char *str);
 
 #endif
