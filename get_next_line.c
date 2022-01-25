@@ -6,16 +6,13 @@
 /*   By: aniezgod <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 14:44:15 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/01/24 17:30:53 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/01/25 20:59:44 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "get_next_line.h"
 
-int	point_end_string(char *buffer, int j)
+int	line(char *buffer, int i)
 {
-	int i;
-
-	i = j;
 	while (buffer[i])
 	{
 		if(buffer[i] == '\n' || buffer[i] == '\0')
@@ -29,7 +26,7 @@ char *get_next_line(int fd)
 {
 	char *buffer;
 	int i;
-	char *chaine;
+	static char *chaine;
 	int j;
 	
 	j = 0;
@@ -41,12 +38,13 @@ char *get_next_line(int fd)
 		if (i <= 0)
 			break;
 		buffer[i] = '\0';
-		while (point_end_string(buffer, j) != -1)
+		while (line(buffer, j) != -1)
 		{
-			printf("%d\n%d\n\n", j, point_end_string(buffer,j));
-			chaine = ft_substr(buffer, j, point_end_string(buffer, j));
-			printf("%s\n", chaine);
-			j = point_end_string(buffer, j) + 1;
+			chaine = ft_strjoin(chaine, buffer);
+			j = line(buffer, j) + 1;
+			printf("%s", chaine);
+			if (chaine == NULL)
+				printf("tu es nulle\n");
 		}
 	}
 	return(NULL);

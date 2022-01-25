@@ -1,15 +1,56 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aniezgod <aniezgod@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aniezgod <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/02 18:08:46 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/01/24 15:58:43 by aniezgod         ###   ########.fr       */
+/*   Created: 2022/01/25 19:50:02 by aniezgod          #+#    #+#             */
+/*   Updated: 2022/01/25 19:51:57 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "get_next_line.h"
+
+char	*ft_strjoin(char const *s1, char const *s2)
+{
+	char	*chaine;
+	size_t	i;
+	size_t	j;
+
+	if (!s1 || !s2)
+		return (NULL);
+	i = ft_strlen(s1);
+	j = ft_strlen(s2);
+	chaine = (char *)malloc(sizeof(*s1) * (i + j + 1));
+	if (!chaine)
+		return (NULL);
+	i = 0;
+	j = 0;
+	while (s1[i])
+	{
+		chaine[i] = s1[i];
+		i++;
+	}
+	while (s2[j])
+	{
+		chaine[j + i] = s2[j];
+		j++;
+	}
+	chaine[j + i] = '\0';
+	return (chaine);
+}
+
+int	ft_strlen(const char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
@@ -38,3 +79,4 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	chaine[j] = '\0';
 	return (chaine);
 }
+
