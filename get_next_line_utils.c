@@ -6,7 +6,7 @@
 /*   By: aniezgod <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 19:50:02 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/01/25 19:51:57 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/01/26 15:32:21 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "get_next_line.h"
@@ -17,9 +17,12 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	size_t	i;
 	size_t	j;
 
-	if (!s1 || !s2)
-		return (NULL);
-	i = ft_strlen(s1);
+//	if (!s1 || !s2)
+//		return (NULL);
+	if(!s1)
+		i = 0;
+	else
+		i = ft_strlen(s1);
 	j = ft_strlen(s2);
 	chaine = (char *)malloc(sizeof(*s1) * (i + j + 1));
 	if (!chaine)

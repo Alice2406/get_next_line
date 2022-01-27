@@ -5,3 +5,48 @@
 5. strjoin chaine restante avec read 
 6. revenir a l'etape 2
 
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NULL)
+			printf("tu es nulle\n");
+	}
+}
+
+
+fonction return une ligne jusqu'au \n;
