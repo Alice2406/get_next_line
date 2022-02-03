@@ -1,0 +1,1913 @@
+1. lire 
+2
+1. lire 
+2. regarder
+1. lire 
+2. regarder si '\n'
+3
+1. lire 
+2. regarder si '\n'
+3a. si oui 
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic ch
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4.
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker l
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine r
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle 
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une s
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. 
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin ch
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine resta
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec r
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. re
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+B
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+i
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+st
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char 
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+i
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+bu
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = mal
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZ
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+i
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return 
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+wh
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = r
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, bu
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFF
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		bre
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffe
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while 
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buff
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != 
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine 
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjo
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine,
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		p
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s"
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (cha
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NUL
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NULL)
+			prin
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NULL)
+			printf("tu es 
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NULL)
+			printf("tu es nulle\n");
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NULL)
+			printf("tu es nulle\n");
+	}
+}
+
+
+fo
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NULL)
+			printf("tu es nulle\n");
+	}
+}
+
+
+fonction ret
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NULL)
+			printf("tu es nulle\n");
+	}
+}
+
+
+fonction return une li
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NULL)
+			printf("tu es nulle\n");
+	}
+}
+
+
+fonction return une ligne jusqu'
+1. lire 
+2. regarder si '\n'
+3a. si oui : satic chaine jusqu'a '\n'
+4. stocker la chaine restante ou la chaine actuelle dans une static 
+5. strjoin chaine restante avec read 
+6. revenir a l'etape 2
+
+
+
+
+
+
+
+
+
+
+
+BUFFER_SIZE = 42
+
+
+
+int i;
+
+
+static char *chaine;
+in
+
+
+
+t j;
+
+j = 0;
+buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+if (!buffer)
+	return (NULL);
+while (i = read(fd, buffer, BUFFER_SIZE))
+{
+	if (i <= 0)
+		break;
+	buffer[i] = '\0';
+	while (line(buffer, j) != -1)	
+    {
+		chaine = ft_strjoin(chaine, buffer);
+		j = line(buffer, j) + 1;
+		printf("%s", chaine);
+		if (chaine == NULL)
+			printf("tu es nulle\n");
+	}
+}
+
+
+fonction return une ligne jusqu'au \n;
+
+au \n;
+
