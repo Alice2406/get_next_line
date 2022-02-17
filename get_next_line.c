@@ -18,35 +18,39 @@ int	line(char *buffer, int i)
 		return (-1);
 	while (1)
 	{
-		if(buffer[i] == '\n' || buffer[i] == 0)
+		if (buffer[i] == '\n' || buffer[i] == 0)
 			return (i);
 		i++;
 	}
-	return(-1);
+	return (-1);
 }
 
 int	new_line(char *buffer)
 {
-	int i = 0;
+	int	i;
+
+	i = 0;
 	if (!buffer)
 		return (0);
-	while(buffer[i])
+	while (buffer[i])
 	{
-			if(buffer[i] == '\n')
-					return (1);
-			i++;
+		if (buffer[i] == '\n')
+			return (1);
+		i++;
 	}
 	return (0);
 }
 
-char *get_next_line(int fd)
+char	*get_next_line(int fd)
 {
-	char *buffer;
-	int i;
-	static char *chaine;
-	char *line_read;
-	int j;
-	
+	char		*buffer;
+	int			i;
+	static char	*chaine;
+	char		*line_read;
+	int			j;
+
+	if (fd < 0 || BUFFER_SIZE < 1)
+		return (NULL);
 	j = 0;
 	buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
 	if (!buffer)
@@ -59,12 +63,9 @@ char *get_next_line(int fd)
 		chaine = ft_strjoin(chaine, buffer);
 	}
 	line_read = ft_substr(chaine, 0, (line(chaine, j) + 1));
-	//printf("line = %s\n", line_read);
 	j = line(chaine, j) + 1;
-	//printf("j = %d\n", j);
 	chaine = ft_substr(chaine, j, (ft_strlen(chaine) - j));
-	//printf("save = %s\n\n\n\n\n\n", chaine);
-	return(free(buffer), line_read);
+	return (free(buffer), line_read);
 }
 
 /*

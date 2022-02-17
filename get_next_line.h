@@ -6,22 +6,22 @@
 /*   By: aniezgod <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 15:50:39 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/02/17 14:35:36 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/02/17 23:44:30 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <fcntl.h>
-#include <stddef.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include <stdio.h>
+# include <fcntl.h>
+# include <stddef.h>
 
-char *get_next_line(int fd);
+char	*get_next_line(int fd);
 char	*ft_substr(char *s, unsigned int start, size_t len);
-int	ft_strlen(const char *str);
+int		ft_strlen(const char *str);
 char	*ft_strjoin(char *s1, char const *s2);
 
 #endif

@@ -78,8 +78,10 @@ char	*ft_substr(char *s, unsigned int start, size_t len)
 		j++;
 		i++;
 	}
+	if (s[i])
+		free(s);
 	if (j == 0)
-		return (NULL);
+		return (free(chaine), NULL);
 	chaine[j] = '\0';
 	return (chaine);
 }
