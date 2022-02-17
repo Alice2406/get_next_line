@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "get_next_line.h"
 
-char	*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char *s1, char const *s2)
 {
 	char	*chaine;
 	size_t	i;
@@ -37,7 +37,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		j++;
 	}
 	chaine[j + i] = '\0';
-	return (chaine);
+	return (free(s1), chaine);
 }
 
 int	ft_strlen(const char *str)
@@ -54,7 +54,7 @@ int	ft_strlen(const char *str)
 	return (i);
 }
 
-char	*ft_substr(char const *s, unsigned int start, size_t len)
+char	*ft_substr(char *s, unsigned int start, size_t len)
 {
 	char	*chaine;
 	size_t	i;

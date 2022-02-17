@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aniezgod <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aniezgod <aniezgod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/10 14:44:15 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/02/17 15:50:08 by aniezgod         ###   ########.fr       */
+/*   Created: 2022/02/17 18:00:02 by aniezgod          #+#    #+#             */
+/*   Updated: 2022/02/17 18:01:43 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "get_next_line.h"
 
 int	line(char *buffer, int i)
@@ -63,7 +64,7 @@ char *get_next_line(int fd)
 	//printf("j = %d\n", j);
 	chaine = ft_substr(chaine, j, (ft_strlen(chaine) - j));
 	//printf("save = %s\n\n\n\n\n\n", chaine);
-	return(line_read);
+	return(free(buffer), line_read);
 }
 
 /*
