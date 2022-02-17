@@ -6,7 +6,7 @@
 /*   By: aniezgod <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 14:44:15 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/02/03 15:12:03 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/02/17 11:21:18 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "get_next_line.h"
@@ -46,10 +46,14 @@ char *get_next_line(int fd)
 		chaine = ft_strjoin(chaine, buffer);
 		printf("%s\n", chaine);
 	}
-	j = line(buffer, j) + 1;
+	printf("j = %d\n", j);
+	j = line(buffer, j);
+	printf("j = %d\nk = %d\n", j, k);
 	line_read = ft_substr(buffer, k, (line(buffer, j) - k));
 	k = j;
-	chaine = ft_substr(buffer, k, (line(buffer, j) - k));
+	printf("j = %d\nk = %d\n", j, k);
+	chaine = ft_substr(buffer, j, (line(buffer, j) - k));
+	printf("j = %d\nk = %d\n", j, k);
 	return(line_read);
 }
 #include <stdio.h>
@@ -63,5 +67,6 @@ int main(int argc, char **argv)
 	fd = open(argv[1], O_RDONLY);
 	line = get_next_line(fd);
 	printf("%s\n", line);
+	close(fd);
 	return (0);
 }
