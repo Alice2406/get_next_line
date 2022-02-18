@@ -52,13 +52,15 @@ char	*get_next_line(int fd)
 	if (fd < 0 || BUFFER_SIZE < 1)
 		return (NULL);
 	j = 0;
-	buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+	buffer = malloc(sizeof(char) * ((long)BUFFER_SIZE + 1));
 	if (!buffer)
 		return (NULL);
 	i = 1;
 	while ((i > 0) && new_line(chaine) == 0)
 	{
 		i = read(fd, buffer, BUFFER_SIZE);
+		if (i < 0)
+			break;
 		buffer[i] = '\0';
 		chaine = ft_strjoin(chaine, buffer);
 	}
