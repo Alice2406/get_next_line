@@ -73,12 +73,8 @@ char	*ft_substr(char *s, unsigned int start, size_t len)
 	while (i != start && s[i])
 		i++;
 	while (s[i] && j < len)
-	{
-		chaine[j] = s[i];
-		j++;
-		i++;
-	}
-	if (s[i])
+		chaine[j++] = s[i++];
+	if (i >= start - 1)
 		free(s);
 	if (j == 0)
 		return (free(chaine), NULL);
