@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aniezgod <aniezgod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/17 18:00:02 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/02/21 15:49:31 by aniezgod         ###   ########.fr       */
+/*   Created: 2022/02/21 15:52:28 by aniezgod          #+#    #+#             */
+/*   Updated: 2022/02/21 15:52:43 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 int	line(char *buffer, int i)
 {
@@ -49,25 +49,3 @@ char	*get_next_line(int fd)
 	chaine = ft_substr(chaine, i, (ft_strlen(chaine) - i));
 	return (line_read);
 }
-
-/*
-#include <stdio.h>
-int main(int argc, char **argv)
-{
-	int fd;
-	char *line;
-	int i = 20;
-
-	if(argc < 2)
-		return(1);
-	fd = open (argv[1], O_RDONLY);
-	line = get_next_line(fd);
-	while(i--)
-	{
-		printf("%s", line);
-		line = get_next_line(fd);
-	}
-	close(fd);
-	return (0);
-}
-*/
