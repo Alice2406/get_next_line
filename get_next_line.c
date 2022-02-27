@@ -6,11 +6,82 @@
 /*   By: aniezgod <aniezgod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 18:00:02 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/02/21 15:49:31 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/02/27 16:23:16 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
+
+char	*ft_strjoin(char *s1, char const *s2)
+{
+	char	*chaine;
+	size_t	i;
+	size_t	j;
+
+	if (!s1 && !s2)
+		return (NULL);
+	i = ft_strlen(s1);
+	j = ft_strlen(s2);
+	chaine = (char *)malloc(sizeof(*s1) * (i + j + 1));
+	if (!chaine)
+		return (free(s1), NULL);
+	i = 0;
+	j = 0;
+	while (s1 && s1[i])
+	{
+		chaine[i] = s1[i];
+		i++;
+	}
+	while (s2[j])
+	{
+		chaine[j + i] = s2[j];
+		j++;
+	}
+	chaine[j + i] = '\0';
+	return (free(s1), chaine);
+}
+
+int	ft_strlen(const char *str)
+{
+	int	i;
+
+	i = 0;
+	if (!str)
+		return (0);
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}
+
+char	*ft_substr(char *s, unsigned int start, size_t len)
+{
+	char	*chaine;
+	size_t	i;
+	size_t	j;
+
+	i = 0;
+	j = 0;
+	if (!s)
+		return (NULL);
+	if (len < (size_t)ft_strlen(s))
+		chaine = (char *)malloc(sizeof(*s) * (len + 1));
+	else
+		chaine = (char *)malloc(sizeof(*s) * (ft_strlen(s) + 1));
+	if (!chaine)
+		return (0);
+	while (i != start && s[i])
+		i++;
+	while (s[i] && j < len)
+		chaine[j++] = s[i++];
+	if (i >= start - 1)
+		free(s);
+	if (j == 0)
+		return (free(chaine), NULL);
+	chaine[j] = '\0';
+	return (chaine);
+}
 
 int	line(char *buffer, int i)
 {
@@ -27,12 +98,15 @@ int	line(char *buffer, int i)
 
 char	*get_next_line(int fd)
 {
-	char		buffer[BUFFER_SIZE + 1];
+	char		*buffer;
 	int			i;
 	static char	*chaine;
 	char		*line_read;
 
 	if (fd < 0 || BUFFER_SIZE < 1)
+		return (NULL);
+	buffer = malloc(sizeof(char) * ((long)BUFFER_SIZE + 1));
+	if (!buffer)
 		return (NULL);
 	i = 1;
 	while ((i > 0) && (line(chaine, 0) == -1
@@ -47,27 +121,5 @@ char	*get_next_line(int fd)
 	line_read = ft_substr(chaine, 0, (line(chaine, 0) + 1));
 	i = line(chaine, 0) + 1;
 	chaine = ft_substr(chaine, i, (ft_strlen(chaine) - i));
-	return (line_read);
+	return (free(buffer), line_read);
 }
-
-/*
-#include <stdio.h>
-int main(int argc, char **argv)
-{
-	int fd;
-	char *line;
-	int i = 20;
-
-	if(argc < 2)
-		return(1);
-	fd = open (argv[1], O_RDONLY);
-	line = get_next_line(fd);
-	while(i--)
-	{
-		printf("%s", line);
-		line = get_next_line(fd);
-	}
-	close(fd);
-	return (0);
-}
-*/

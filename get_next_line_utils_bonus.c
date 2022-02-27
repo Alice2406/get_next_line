@@ -6,79 +6,13 @@
 /*   By: aniezgod <aniezgod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 15:53:41 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/02/24 12:26:07 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/02/27 16:26:18 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
 
-char	*ft_strjoin(char *s1, char const *s2)
+void	do_nothing(void)
 {
-	char	*chaine;
-	size_t	i;
-	size_t	j;
-
-	if (!s1 && !s2)
-		return (NULL);
-	i = ft_strlen(s1);
-	j = ft_strlen(s2);
-	chaine = (char *)malloc(sizeof(*s1) * (i + j + 1));
-	if (!chaine)
-		return (free(s1), NULL);
-	i = 0;
-	j = 0;
-	while (s1 && s1[i])
-	{
-		chaine[i] = s1[i];
-		i++;
-	}
-	while (s2[j])
-	{
-		chaine[j + i] = s2[j];
-		j++;
-	}
-	chaine[j + i] = '\0';
-	return (free(s1), chaine);
-}
-
-int	ft_strlen(const char *str)
-{
-	int	i;
-
-	i = 0;
-	if (!str)
-		return (0);
-	while (str[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
-
-char	*ft_substr(char *s, unsigned int start, size_t len)
-{
-	char	*chaine;
-	size_t	i;
-	size_t	j;
-
-	i = 0;
-	j = 0;
-	if (!s)
-		return (NULL);
-	if (len < (size_t)ft_strlen(s))
-		chaine = (char *)malloc(sizeof(*s) * (len + 1));
-	else
-		chaine = (char *)malloc(sizeof(*s) * (ft_strlen(s) + 1));
-	if (!chaine)
-		return (0);
-	while (i != start && s[i])
-		i++;
-	while (s[i] && j < len)
-		chaine[j++] = s[i++];
-	if (i >= start - 1)
-		free(s);
-	if (j == 0)
-		return (free(chaine), NULL);
-	chaine[j] = '\0';
-	return (chaine);
+	return ;
 }
