@@ -6,7 +6,7 @@
 /*   By: aniezgod <aniezgod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 18:00:02 by aniezgod          #+#    #+#             */
-/*   Updated: 2022/02/27 16:23:16 by aniezgod         ###   ########.fr       */
+/*   Updated: 2022/12/20 18:25:37 by aniezgod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -123,3 +123,26 @@ char	*get_next_line(int fd)
 	chaine = ft_substr(chaine, i, (ft_strlen(chaine) - i));
 	return (free(buffer), line_read);
 }
+
+// #include <stdio.h>
+
+// int main(int ac, char **av)
+// {
+
+// 	char	*str;
+// 	int		fd;
+
+// 	if (ac != 2)
+// 		return (0);
+// 	fd = open(av[1], O_RDONLY);
+// 	str = get_next_line(fd);
+// 	if (!str)
+// 		return (0);
+// 	while (str)
+// 	{
+// 		printf("%s", str);
+// 	 	free(str);
+// 		str = get_next_line(fd);
+// 	}
+// 	close (fd);
+// }
